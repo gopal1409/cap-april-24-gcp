@@ -1,4 +1,4 @@
-#! /bin/bash sudo su
+#! /bin/bash
 apt-get update
 apt install apache2 -y
 echo "Hello World" > /var/www/html/index.html
