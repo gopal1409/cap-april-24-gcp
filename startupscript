@@ -2,4 +2,4 @@
 apt-get update
 apt install apache2 -y
 echo "Hello World" > /var/www/html/index.html
-echo "Hello world from $(hostname) $(hostname -I)" > /var/www/html/index.html
+echo "Hello world from instance template $(hostname) $(hostname -I)" > /var/www/html/index.html
