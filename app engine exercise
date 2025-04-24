@@ -1,0 +1,10 @@
+go inside the my first-service
+cd my-first-service
+gcloud app deploy
+###once completed in the browser with the new url you can see the version one of application
+#we will modify the code and put version 2
+#then redeploy it using version2
+gcloud app deploy --version=v2
+##lets add the version three also and redeploy it
+gcloud app deploy --version=v3 --no-promote
+###finally split the traffic between version 2 and 3 randomly and check the same 
