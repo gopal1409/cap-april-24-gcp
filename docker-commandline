@@ -1,2 +1,12 @@
 #lets become a root user in linux
   sudo -i
+#docker commands
+11  docker --version
+   12  docker
+#######lets create our first container
+15  docker container run -p 81:80 -d nginx
+#the below command will show the running container
+   16  docker ps
+#this will create another container with same image
+   17  docker container run -p 82:80 -d nginx
+   18  docker ps
