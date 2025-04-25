@@ -16,3 +16,12 @@
    21  docker container run -p 83:80 -d httpd
    22  docker images
    23  docker container run -p 84:80 -d httpd
+#container vs process id
+29  docker container run -d mongo
+   30  docker ps
+   31  docker top mongo
+   32  docker top wonderful_buck
+   33  ps aux
+   34  docker top wonderful_buck
+   35  kill -9 4997
+   36  docker ps -a
