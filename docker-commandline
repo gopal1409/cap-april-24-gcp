@@ -16,6 +16,15 @@
    21  docker container run -p 83:80 -d httpd
    22  docker images
    23  docker container run -p 84:80 -d httpd
+20  docker images
+   21  docker container run -p 83:80 -d httpd
+   22  docker images
+   23  docker container run -p 84:80 -d httpd
+   24  history
+   25  docker ps
+   26  docker container run -p 85:80 httpd
+   27  docker ps
+   28  docker ps -a
 #container vs process id
 29  docker container run -d mongo
    30  docker ps
